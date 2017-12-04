@@ -32,7 +32,7 @@ public class CsvWritter : IDownloadHandler
     /// </summary>
     public Encoding Encode
     {
-        get { return Encoding.GetEncoding(EncodeName.SHIFT_JIS); }
+        get { return Encoding.GetEncoding("Shift_JIS"); }
     }
 
     #endregion
